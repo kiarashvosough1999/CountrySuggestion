@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1CB7FB2757D37D007F7626 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CB7FA2757D37D007F7626 /* SceneManager.swift */; };
 		DE1F8B9F2756B11700B3E631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F8B9E2756B11700B3E631 /* AppDelegate.swift */; };
-		DE1F8BA12756B11700B3E631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F8BA02756B11700B3E631 /* SceneDelegate.swift */; };
+		DE1F8BA12756B11700B3E631 /* MainAppSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F8BA02756B11700B3E631 /* MainAppSceneDelegate.swift */; };
 		DE1F8BA32756B11700B3E631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1F8BA22756B11700B3E631 /* ViewController.swift */; };
-		DE1F8BA62756B11700B3E631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1F8BA42756B11700B3E631 /* Main.storyboard */; };
 		DE1F8BA92756B11700B3E631 /* CountrySuggestion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE1F8BA72756B11700B3E631 /* CountrySuggestion.xcdatamodeld */; };
 		DE1F8BAB2756B11A00B3E631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1F8BAA2756B11A00B3E631 /* Assets.xcassets */; };
 		DE1F8BAE2756B11A00B3E631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1F8BAC2756B11A00B3E631 /* LaunchScreen.storyboard */; };
+		DE9A96212757E8EA0070BDF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A96202757E8EA0070BDF1 /* main.swift */; };
 		EBC7D7E685F4100EF957EA7D /* Pods_CountrySuggestion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDF754A56C9EDC8194B6C92 /* Pods_CountrySuggestion.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,15 +22,16 @@
 		4178F1511FB0B59692AF5185 /* Pods-CountrySuggestion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountrySuggestion.debug.xcconfig"; path = "Target Support Files/Pods-CountrySuggestion/Pods-CountrySuggestion.debug.xcconfig"; sourceTree = "<group>"; };
 		78F9A748543DBC3B472B019B /* Pods-CountrySuggestion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountrySuggestion.release.xcconfig"; path = "Target Support Files/Pods-CountrySuggestion/Pods-CountrySuggestion.release.xcconfig"; sourceTree = "<group>"; };
 		9DDF754A56C9EDC8194B6C92 /* Pods_CountrySuggestion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountrySuggestion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1CB7FA2757D37D007F7626 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 		DE1F8B9B2756B11700B3E631 /* CountrySuggestion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountrySuggestion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1F8B9E2756B11700B3E631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE1F8BA02756B11700B3E631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE1F8BA02756B11700B3E631 /* MainAppSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppSceneDelegate.swift; sourceTree = "<group>"; };
 		DE1F8BA22756B11700B3E631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE1F8BA52756B11700B3E631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE1F8BA82756B11700B3E631 /* CountrySuggestion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CountrySuggestion.xcdatamodel; sourceTree = "<group>"; };
 		DE1F8BAA2756B11A00B3E631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1F8BAD2756B11A00B3E631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE1F8BAF2756B11A00B3E631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9A96202757E8EA0070BDF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE1CB7F62757D316007F7626 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE1CB7F72757D335007F7626 /* Scenes */,
+				DE1F8B9E2756B11700B3E631 /* AppDelegate.swift */,
+				DE1CB7FA2757D37D007F7626 /* SceneManager.swift */,
+				DE9A96202757E8EA0070BDF1 /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE1CB7F72757D335007F7626 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				DE1F8BA02756B11700B3E631 /* MainAppSceneDelegate.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		DE1F8B922756B11600B3E631 = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +103,8 @@
 		DE1F8B9D2756B11700B3E631 /* CountrySuggestion */ = {
 			isa = PBXGroup;
 			children = (
-				DE1F8B9E2756B11700B3E631 /* AppDelegate.swift */,
-				DE1F8BA02756B11700B3E631 /* SceneDelegate.swift */,
+				DE1CB7F62757D316007F7626 /* App */,
 				DE1F8BA22756B11700B3E631 /* ViewController.swift */,
-				DE1F8BA42756B11700B3E631 /* Main.storyboard */,
 				DE1F8BAA2756B11A00B3E631 /* Assets.xcassets */,
 				DE1F8BAC2756B11A00B3E631 /* LaunchScreen.storyboard */,
 				DE1F8BAF2756B11A00B3E631 /* Info.plist */,
@@ -157,7 +176,6 @@
 			files = (
 				DE1F8BAE2756B11A00B3E631 /* LaunchScreen.storyboard in Resources */,
 				DE1F8BAB2756B11A00B3E631 /* Assets.xcassets in Resources */,
-				DE1F8BA62756B11700B3E631 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,22 +248,16 @@
 			files = (
 				DE1F8BA32756B11700B3E631 /* ViewController.swift in Sources */,
 				DE1F8B9F2756B11700B3E631 /* AppDelegate.swift in Sources */,
+				DE9A96212757E8EA0070BDF1 /* main.swift in Sources */,
+				DE1CB7FB2757D37D007F7626 /* SceneManager.swift in Sources */,
 				DE1F8BA92756B11700B3E631 /* CountrySuggestion.xcdatamodeld in Sources */,
-				DE1F8BA12756B11700B3E631 /* SceneDelegate.swift in Sources */,
+				DE1F8BA12756B11700B3E631 /* MainAppSceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE1F8BA42756B11700B3E631 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE1F8BA52756B11700B3E631 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE1F8BAC2756B11A00B3E631 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
